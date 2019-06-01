@@ -1,5 +1,5 @@
 backend:
-  name: saxenanihal95/urban-jekyll-template
+  name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 
 media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads

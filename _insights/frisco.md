@@ -1,6 +1,6 @@
 ---
-name: Frisco Template
-subtitle: App marketing template for Jekyll
+title: How to Build a Blogging Website for Free (Step-by-Step Walkthrough)
+subtitle: This guide will walk you through with building a blog for FREE in 2019
 external_url: https://github.com/CloudCannon/frisco-jekyll-template
 image_path: /images/insights/frisco.jpg
 ---

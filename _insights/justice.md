@@ -1,6 +1,6 @@
 ---
-name: Justice Template
-subtitle: Law firm themed business template for Jekyll
+title: How to Build a Blogging Website for Free (Step-by-Step Walkthrough)
+subtitle: This guide will walk you through with building a blog for FREE in 2019
 external_url: https://github.com/CloudCannon/justice-jekyll-template
 image_path: /images/insights/justice.jpg
 ---

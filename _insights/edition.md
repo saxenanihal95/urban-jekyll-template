@@ -1,8 +1,8 @@
 ---
-name: Edition Template
-subtitle: Product documentation template for Jekyll
-external_url: https://github.com/CloudCannon/edition-jekyll-template
-image_path: /images/insights/edition.png
+title: How to Build a Blogging Website for Free (Step-by-Step Walkthrough)
+subtitle: This guide will walk you through with building a blog for FREE in 2019
+external_url: https://github.com/CloudCannon/cause-jekyll-template
+image_path: /images/insights/cause.jpg
 ---
 
 Product documentation template for Jekyll. Browse through a [live demo](https://long-pig.cloudvent.net/).

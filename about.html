@@ -1,19 +1,48 @@
 ---
 title: About
 heading: Meet the Person
-subtitle: Rakshit Soral
+subtitle:
 ---
 
-Meet the PersonI am an articulate, competent, quick-learner Digital Marketer who
-has a natural flare for being able to drive organic and paid conversions through
-Content Marketing funnels, SEO, Influencer relationships, Pay-per click
-campaigns(PPC) and unswerving focus on leading edge strategies. I possess proven
-ability to drive natural leads and increase brand awareness online.Professional
-Experience. Formally, I call myself a Digital Marketer, with a heavy focus on
-inbound marketing. My work experience has offered me a fantastic opportunity to
-learn and experiment, refining my craft in the process. Working in both B2B and
-B2C environments, I’ve created dynamic websites using WordPress, Webflow, Github
-Pages as a CMS, performed Search Engine Optimization (SEO) to generate organic
-traffic, implemented relevant CTAs to generate leads, and developed value-adding
-email marketing strategies to help nurture them. My main goal is to offer real
-value and establishing real relationships as a result.
+<section class="diagonal alternate">
+  <div class="container">
+    <p class="editor-link" style="text-align: center;">
+      <a href="cloudcannon:collections/_staff_members/" class="btn"
+        ><strong>&#9998;</strong>Manage Staff members</a
+      >
+    </p>
+    <ul class="image-grid">
+      {% for member in site.staff_members %}
+      <li>{% include staff-member.html member=member %}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="diagonal patterned">
+  <div class="container halves">
+    <h3 class="editable">About Me</h3>
+    <p class="editable" style="font-size: 1.38rem">
+      I am an articulate, competent, quick-learner Digital Marketer who has a
+      natural flare for being able to drive organic and paid conversions through
+      Content Marketing funnels, SEO, Influencer relationships, Pay-per click
+      campaigns(PPC) and unswerving focus on leading edge strategies. I possess
+      proven ability to drive natural leads and increase brand awareness
+      online.Professional Experience.
+    </p>
+    <p class="editable" style="font-size: 1.38rem">
+      Formally, I call myself a Digital Marketer, with a heavy focus on inbound
+      marketing. My work experience has offered me a fantastic opportunity to
+      learn and experiment, refining my craft in the process. Working in both
+      B2B and B2C environments, I’ve created dynamic websites using HTML/ CSS,
+      WordPress, Webflow, Github Pages/ Netlify as a CMS, performed Search
+      Engine Optimization (SEO) to generate organic traffic, implemented
+      relevant CTAs to generate leads, and developed value-adding email
+      marketing strategies to help nurture them. My main goal is to offer real
+      value and establishing real relationships as a result.
+    </p>
+    <p>
+      <a class="button" href="{{ site.baseurl }}/contact/">Work with Me</a>
+    </p>
+  </div>
+</section>

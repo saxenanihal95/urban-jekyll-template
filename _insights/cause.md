@@ -3,7 +3,7 @@ title: How to Build a Blogging Website for Free (Step-by-Step Walkthrough)
 name: How to build a Blog for Free in 2019
 subtitle: This guide will walk you through with building a blog for FREE in 2019
 external_url: https://github.com/CloudCannon/cause-jekyll-template
-image_path: /images/clients/cause.jpg
+image_path: /images/insights/cause.jpg
 ---
 
 Today, I’m going to show you a VERY simple technique of building a Blog website for FREE.

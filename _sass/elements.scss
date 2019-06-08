@@ -56,12 +56,11 @@ pre {
   margin: 0 0 20px 0;
 }
 
-p,
 address,
 ul,
 ol {
   font-size: 1.38rem;
-  color: black;
+  color: white;
   font-weight: 300;
   line-height: 1.6;
 }
@@ -70,4 +69,10 @@ pre {
   padding: 10px;
   background: #eee;
   border-radius: 2px;
+}
+
+p {
+  font-size: 1.38rem;
+  font-weight: 300;
+  line-height: 1.6;
 }

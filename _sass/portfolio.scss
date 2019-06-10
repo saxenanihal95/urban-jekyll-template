@@ -180,3 +180,54 @@ body {
   font-family: sans-serif;
   color: #555;
 }
+/* Make sure that padding behaves as expected */
+* {
+  box-sizing: border-box;
+}
+
+/* Container for skill bars */
+.skills-container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  height: 30px;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+  height: 30px;
+}
+
+.html {
+  width: 90%;
+  background-color: #4caf50;
+  font-size: 20px;
+} /* Green */
+.css {
+  width: 80%;
+  background-color: #2196f3;
+  font-size: 20px;
+} /* Blue */
+.js {
+  width: 65%;
+  background-color: #f44336;
+  font-size: 20px;
+} /* Red */
+.php {
+  width: 60%;
+  background-color: #808080;
+  font-size: 20px;
+} /* Dark Grey */
+
+.Row {
+  display: table;
+  width: 100%; /*Optional*/
+  table-layout: fixed; /*Optional*/
+  border-spacing: 10px; /*Optional*/
+}
+.Column {
+  display: table-cell;
+  background-color: red; /*Optional*/
+}

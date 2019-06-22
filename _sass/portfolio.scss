@@ -229,5 +229,19 @@ body {
 }
 .Column {
   display: table-cell;
-  background-color: red; /*Optional*/
+  border: solid black;
+}
+.verticalLine {
+  border-left: thick solid #ff0000;
+}
+.verticalLine small {
+  display: block;
+  opacity: 0.7;
+}
+.left-content-text .verticalline ul li span .right-content ul li span {
+  margin: 0 4% 15px 0;
+  transition-duration: 0.3s;
+}
+.left-content .d-flex {
+  padding-right: 125px;
 }

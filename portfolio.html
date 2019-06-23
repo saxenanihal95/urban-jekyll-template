@@ -97,12 +97,59 @@ subtitle: See my Digital Marketing Portfolio for some examples of my work with e
                     <li style="padding-left:1em; padding-bottom: 1em"><span>10th (PCMC)</span><small>Birla Shiksha Kendra</small><small>July 2008 - Jun. 2009</small></li>
               </ul>
               </div>
-
+              
       </div>
       
 </div>
+<h3 style="padding-top: 2em">Testimonials</h3>
+<div class="container box_1620">
+<div class="wrapper">
+  <blockquote>
+    &ldquo;Such cool. Much awesome. WOW&rdquo;
+  </blockquote>
+  <p class="author">
+    &ndash; 
+    <strong>Doge</strong>, 
+    <a href="#">The Moon</a>
+  </p>
+  <blockquote>
+    &ldquo;Such cool. Much awesome. WOW&rdquo;
+  </blockquote>
+  <p class="author">
+    &ndash; 
+    <strong>Doge</strong>, 
+    <a href="#">The Moon</a>
+  </p>
+</div>
 </div>   
 
+  </div>
+  <div class="container">
+      <h3 style="padding-top: 2em">Insights</h3>
+
+    <p class="editor-link" style="text-align: center;">
+      <a href="cloudcannon:collections/_insights/" class="btn"
+        ><strong>&#9998;</strong> Manage insights</a
+      >
+    </p>
+    <ul class="image-grid">
+      {% for insight in site.insights %}
+      <li>
+        <a href="{{ site.baseurl }}{{ insight.url }}">
+          <img
+            src="{% include relative-src.html src=insight.image_path %}"
+            alt="{{ person.name }}"
+          />
+          <div class="details">
+            <div class="name">{{ insight.name }}</div>
+            <div class="position">{{ insight.subtitle }}</div>
+          </div>
+        </a>
+      </li>
+      {% endfor %}
+      <li class="filler"></li>
+      <li class="filler"></li>
+    </ul>
   </div>
   
   
@@ -110,32 +157,5 @@ subtitle: See my Digital Marketing Portfolio for some examples of my work with e
 
 </section>
 
-<section class="diagonal patterned">
-    <div class="container">
-      <p class="editor-link" style="text-align: center;">
-        <a href="cloudcannon:collections/_insights/" class="btn"
-          ><strong>&#9998;</strong> Manage insights</a
-        >
-      </p>
-      <ul class="image-grid">
-        {% for insight in site.insights %}
-        <li>
-          <a href="{{ site.baseurl }}{{ insight.url }}">
-            <img
-              src="{% include relative-src.html src=insight.image_path %}"
-              alt="{{ person.name }}"
-            />
-            <div class="details">
-              <div class="name">{{ insight.name }}</div>
-              <div class="position">{{ insight.subtitle }}</div>
-            </div>
-          </a>
-        </li>
-        {% endfor %}
-        <li class="filler"></li>
-        <li class="filler"></li>
-      </ul>
-    </div>
-  </section>
 
 

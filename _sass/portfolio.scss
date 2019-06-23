@@ -230,6 +230,7 @@ body {
 .Column {
   display: table-cell;
   border: solid black;
+  background-color: rgb(216, 191, 216);
 }
 .Column small {
   display: block;
@@ -271,4 +272,28 @@ body {
   background-color: #823980;
   border-radius: 4px;
   margin-top: 30px;
+}
+.wrapper {
+  width: 100%;
+  margin: 24px auto;
+}
+
+blockquote {
+  background-color: rgb(216, 191, 216);
+  border-radius: 6px;
+  font-family: Georgia, serif;
+  font-size: 22px;
+  line-height: 1.4;
+  margin: 0;
+  padding: 17px;
+}
+p.author {
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 24px 0 18px;
+}
+strong {
+  color: rgb(68, 68, 68);
 }

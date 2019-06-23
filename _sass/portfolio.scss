@@ -231,6 +231,12 @@ body {
   display: table-cell;
   border: solid black;
 }
+.Column small {
+  display: block;
+  opacity: 0.7;
+  font-size: 20px;
+  color: black;
+}
 .verticalLine {
   border-left: thick solid #823980;
 }
@@ -249,7 +255,6 @@ body {
 .buttonzone {
   display: flex;
   width: 450px;
-  justify-content: space-between;
 }
 
 #downloadbutton,

@@ -20,77 +20,72 @@ title: Digital Marketer, Freelancer, Conversion Strategist
       <img src="images/Digital marketing freelancer.png" />
     </div>
   </div>
-</section>
-
-<section class="diagonal patterned">
   <div class="container halves">
-    <div>
-      <img src="images/FReelancer on sofa.png" />
-    </div>
+      <div>
+        <img src="images/FReelancer on sofa.png" />
+      </div>
+  
+      <div class="container halves">
+        <h3 class="editable" style="padding-top: 250px">Who am I?</h3>
+        <p class="editable" style="font-size: 1.38rem">
+          I am a 26 years old accidental Engineer turned Digital Marketer who is
+          currently on the journey of an endless learning (Yes, I learn alot from
+          others, my experiences and most importantly Myself. :-)
+        </p>
+        <p class="editable" style="font-size: 1.38rem">
+          Currently working as Digital Marketer at Simform, I enjoy generating
+          traffic and inbound leads through different Digital marketing channels:
+          SEO, SMM, PPC, Content Marketing, influencer Marketing etc. Currently
+          residing in a wonderful, diverse and vibrant city of Gujarat.
+        </p>
+        <p class="editable">
+          <a href="{{ site.baseurl }}/about/">Learn More &rarr;</a>
+        </p>
+        
+      </div>
+      </div>
+      <div class="container halves">
+          <div  style="padding-top: 250px">
+            <h3 class="editable">Skills I possess?</h3>
+            <p class="editable" style="font-size: 1.38rem">
+              Having worked in diverse domains, I have experience and ability to drive
+              lead generation through omnichannel Digital Marketing skills:
+            </p>
+            <p class="editable">
+              <a href="{{ site.baseurl }}/portfolio/">Learn More &rarr;</a>
+            </p>
+          </div>
+          <div>
+            <ul class="image-grid" style="padding-top: 100px">
+              {% for insight in site.insights limit: 4 %}
+              <li>
+                <a href="{{ site.baseurl }}{{ insight.url }}"
+                  ><img src="{% include relative-src.html src=insight.image_path %}"
+                /></a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+        <div class="container halves">
+            <div>
+              <img src="images/Freelancer working.png" />
+            </div>
+            <div class="container halves">
+              <h3 class="editable" style="padding-top: 250px">How I work?</h3>
+              <p class="editable" style="font-size: 1.38rem">
+                My work experience has offered me a fantastic opportunity to learn and
+                experiment, refining my craft in the process.
+              </p>
+              <p class="editable" style="font-size: 1.38rem">
+                Working in both B2B and B2C environments, I’ve created dynamic websites
+                using WordPress, Webflow, Github Pages as a CMS, performed Search Engine
+                Optimization (SEO) to generate organic traffic, implemented relevant
+                CTAs to generate leads, and developed value-adding email marketing
+                strategies to help nurture them.
+              </p>
+            </div>
+          </div>
+    </section>
 
-    <div class="container halves">
-      <h3 class="editable">Who am I?</h3>
-      <p class="editable" style="font-size: 1.38rem">
-        I am a 26 years old accidental Engineer turned Digital Marketer who is
-        currently on the journey of an endless learning (Yes, I learn alot from
-        others, my experiences and most importantly Myself. :-)
-      </p>
-      <p class="editable" style="font-size: 1.38rem">
-        Currently working as Digital Marketer at Simform, I enjoy generating
-        traffic and inbound leads through different Digital marketing channels:
-        SEO, SMM, PPC, Content Marketing, influencer Marketing etc. Currently
-        residing in a wonderful, diverse and vibrant city of Gujarat.
-      </p>
-      <p class="editable">
-        <a href="{{ site.baseurl }}/about/">Learn More &rarr;</a>
-      </p>
-    </div>
-  </div>
-</section>
-<section class="diagonal alternate">
-  <div class="container halves">
-    <div>
-      <h3 class="editable">Skills I possess?</h3>
-      <p class="editable">
-        Having worked in diverse domains, I have experience and ability to drive
-        lead generation through omnichannel Digital Marketing skills:
-      </p>
-      <p class="editable">
-        <a href="{{ site.baseurl }}/portfolio/">Learn More &rarr;</a>
-      </p>
-    </div>
-    <div>
-      <ul class="image-grid">
-        {% for insight in site.insights limit: 4 %}
-        <li>
-          <a href="{{ site.baseurl }}{{ insight.url }}"
-            ><img src="{% include relative-src.html src=insight.image_path %}"
-          /></a>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-</section>
 
-<section class="hero diagonal" style="padding-top: 100px">
-  <div class="container halves">
-    <div>
-      <img src="images/Freelancer working.png" />
-    </div>
-    <div class="container halves">
-      <h3 class="editable">How I work?</h3>
-      <p class="editable" style="font-size: 1.38rem">
-        My work experience has offered me a fantastic opportunity to learn and
-        experiment, refining my craft in the process.
-      </p>
-      <p class="editable" style="font-size: 1.38rem">
-        Working in both B2B and B2C environments, I’ve created dynamic websites
-        using WordPress, Webflow, Github Pages as a CMS, performed Search Engine
-        Optimization (SEO) to generate organic traffic, implemented relevant
-        CTAs to generate leads, and developed value-adding email marketing
-        strategies to help nurture them.
-      </p>
-    </div>
-  </div>
-</section>

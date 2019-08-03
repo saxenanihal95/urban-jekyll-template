@@ -5,7 +5,12 @@ layout: page
 <section class="diagonal">
   <div class="blog-post text-container">
     <div class="post-content">
-      {% include post-title.html post=page %}
+        {% if page.heading %}
+        <h1>{{ page.heading }}</h1>
+      {% elsif page.title %}
+        <h1>{{ page.title }}</h1>
+      {% endif %}        
+      {% include post-title.html %}
       {{ content }}
     </div>
     <div style="display: flex; margin-top: 50px">
@@ -16,11 +21,11 @@ layout: page
             style="align-self: flex-start; height: 80px; width: 80px; border-radius: 50%"
           />
           <div style="padding: 0px 15px;">
-          <p style="font-size: 1rem;">
+          <p>
             Hi, I'm Rakshit Soral. This is my personal website. Come Join me as I unfold the lessons from my personal & professional spheres of life & career. 
-          </p><p style="font-weight: bold; font-size: 1rem;">I write about</p>
+          </p>I write about</p>
 
-          <p style="font-size: 1rem;">
+          <p>
             Marketing, web-design, technology
           </p>
         </div>

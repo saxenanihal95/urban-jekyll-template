@@ -1,22 +1,22 @@
-title: Urban Template
-url: "https://teal-worm.cloudvent.net"
+title: Rakshit Soral
+url: "https://rakshitsoral.ga"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
-disqus_shortname:
+disqus_shortname: rakshitsoral1
 
 # Default description in social shares for the jekyll-seo-tag gem
-description: Jekyll template with example content for a web agency.
+description: Rakshit Soral is a Digital Marketer, conversion strategist and seasoned web developer. Read his blog or contact him via Email.
 
 # Author details for the jekyll-seo-tag gem
 author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+  name: Rakshit Soral
+  email: rakshitsoral@gmail.com
+  twitter: RakshitSoral # twitter username without the @ symbol
 
 # Social details for the jekyll-seo-tag gem
 social:
-  name: Urban Template
+  name: Rakshit Soral
   links:
     - https://github.com/CloudCannon/urban-jekyll-template
 
@@ -25,7 +25,7 @@ timezone: Etc/UTC
 collections:
   staff_members:
     output: false
-  clients:
+  insights:
     output: true
 
 paginate: 10
@@ -60,9 +60,9 @@ defaults:
           height: 2000
   - scope:
       path: ""
-      type: "clients"
+      type: "insights"
     values:
-      layout: "client"
+      layout: "insight"
       _options:
         image_path:
           width: 2000

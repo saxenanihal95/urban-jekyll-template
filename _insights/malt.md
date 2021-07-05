@@ -1,8 +1,8 @@
 ---
-name: Malt Template
-subtitle: Event marketing template for Jekyll
+title: How to Build a Blogging Website for Free (Step-by-Step Walkthrough)
+subtitle: This guide will walk you through with building a blog for FREE in 2019
 external_url: https://github.com/CloudCannon/malt-jekyll-template
-image_path: /images/clients/malt.jpg
+image_path: /images/insights/malt.jpg
 ---
 
 Event marketing template for Jekyll. Browse through a [live demo](https://whispering-boat.cloudvent.net/).
@@ -15,15 +15,15 @@ Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jeky
 
 ## Features
 
-* Pre-built page
-* Pre-styled components
-* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
-* SEO tags
-* Google Analytics
-* [EventBrite](https://www.eventbrite.com/)
-* Contact Form
-* Featured
-* Image Gallery
+- Pre-built page
+- Pre-styled components
+- Optimised for editing in [CloudCannon](http://cloudcannon.com/)
+- SEO tags
+- Google Analytics
+- [EventBrite](https://www.eventbrite.com/)
+- Contact Form
+- Featured
+- Image Gallery
 
 ## Setup
 
@@ -37,15 +37,15 @@ Malt was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should sup
 
 Install the dependencies with [Bundler](http://bundler.io/):
 
-~~~bash
+```bash
 $ bundle install
-~~~
+```
 
 Run `jekyll` commands through Bundler to ensure you're using the right versions:
 
-~~~bash
+```bash
 $ bundle exec jekyll serve
-~~~
+```
 
 ## Editing
 

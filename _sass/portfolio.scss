@@ -1,0 +1,291 @@
+.home_banner_area {
+  position: relative;
+  z-index: 1;
+  background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  margin-bottom: 200px;
+}
+.home_banner_area .box_1620 {
+  min-height: 700px;
+  border-radius: 12px;
+  position: relative;
+  bottom: -200px;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
+}
+.home_banner_area .banner_inner {
+  position: relative;
+  width: 100%;
+  min-height: 700px;
+  display: flex;
+}
+.home_banner_area .banner_inner .banner_content {
+  color: #222222;
+  vertical-align: middle;
+  align-self: center;
+  text-align: left;
+}
+.home_banner_area .banner_inner .banner_content .media .d-flex {
+  padding-right: 125px;
+}
+.home_banner_area .banner_inner .banner_content .media .media-body {
+  vertical-align: middle;
+  align-self: center;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+@media (min-width: 1620px) {
+  .box_1620 {
+    max-width: 1620px;
+    margin: auto;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+.home_banner_area .banner_inner {
+  position: relative;
+  width: 100%;
+  min-height: 700px;
+  display: flex;
+}
+.home_banner_area .banner_inner .banner_content {
+  color: #222222;
+  vertical-align: middle;
+  align-self: center;
+  text-align: left;
+}
+.home_banner_area .banner_inner .banner_content .media .d-flex {
+  padding-right: 125px;
+}
+.home_banner_area .banner_inner .banner_content .media .media-body {
+  vertical-align: middle;
+  align-self: center;
+}
+
+.profile_inner {
+  border-bottom: 1px solid #eeeeee;
+}
+.profile_inner .personal_text {
+  padding-left: 95px;
+}
+
+.personal_text h6 {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2.1px;
+  font-weight: normal;
+  margin-bottom: 12px;
+  color: #222222;
+}
+.personal_text h4 {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #222222;
+}
+.personal_text h3 {
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  color: #222222;
+}
+.personal_text p {
+  font-family: "Roboto", sans-serif;
+  max-width: 540px;
+  color: #777777;
+  margin-bottom: 40px;
+}
+.personal_text .basic_info li {
+  margin-bottom: 15px;
+}
+.personal_text .basic_info li a {
+  position: relative;
+  padding-left: 40px;
+  font-size: 16px;
+  color: #777777;
+}
+.personal_text .basic_info li a i {
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #766dff;
+}
+.personal_text .basic_info li:last-child {
+  margin-bottom: 0px;
+}
+.personal_text .personal_social {
+  margin-top: 45px;
+}
+.personal_text .personal_social li {
+  display: inline-block;
+  margin-right: 7px;
+}
+.personal_text .personal_social li:last-child {
+  margin-right: 0px;
+}
+.personal_text .personal_social li a {
+  line-height: 40px;
+  width: 40px;
+  background: #e8e8e8;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}
+.personal_text .personal_social li:hover a {
+  background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+  background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+}
+/* Add the following CSS block to your own
+stylesheet. */
+.lnr {
+  display: inline-block;
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.05em;
+}
+
+.lnr-calendar-full {
+  color: #0f52ba;
+  /* We can use "color" for setting the color
+    of the SVG because we set its "fill" to
+    "currentColor" */
+  font-size: 40px;
+  /* We can use "font-size" for changing the size
+    of the SVG because its width and height were
+    set 1em.
+    To get crisp results, use sizes that are
+    a multiple of 20; because Linearicons was
+    designed on a 20 by 20 grid. */
+}
+
+body {
+  font-size: 40px;
+  font-family: sans-serif;
+  color: #555;
+}
+/* Make sure that padding behaves as expected */
+* {
+  box-sizing: border-box;
+}
+
+/* Container for skill bars */
+.skills-container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  height: 30px;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+  height: 30px;
+}
+
+.html {
+  width: 90%;
+  background-color: #4caf50;
+  font-size: 20px;
+} /* Green */
+.css {
+  width: 80%;
+  background-color: #2196f3;
+  font-size: 20px;
+} /* Blue */
+.js {
+  width: 65%;
+  background-color: #f44336;
+  font-size: 20px;
+} /* Red */
+.php {
+  width: 60%;
+  background-color: #808080;
+  font-size: 20px;
+} /* Dark Grey */
+
+.Row {
+  display: table;
+  width: 100%; /*Optional*/
+  table-layout: fixed; /*Optional*/
+  border-spacing: 10px; /*Optional*/
+}
+.Column {
+  display: table-cell;
+  border: solid black;
+  background-color: rgb(216, 191, 216);
+}
+.Column small {
+  display: block;
+  opacity: 0.7;
+  font-size: 20px;
+  color: black;
+}
+.verticalLine {
+  border-left: thick solid #823980;
+}
+.verticalLine small {
+  display: block;
+  opacity: 0.7;
+}
+.left-content-text .verticalline ul li span .right-content ul li span {
+  margin: 0 4% 15px 0;
+  transition-duration: 0.3s;
+}
+.left-content .d-flex {
+  padding-right: 125px;
+}
+
+.buttonzone {
+  display: flex;
+  width: 450px;
+}
+
+#downloadbutton,
+#contactmebutton {
+  display: inline-block;
+  height: 40px;
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  line-height: 36px;
+  box-sizing: border-box;
+  padding: 1px 0 0 0;
+  text-align: center;
+  background-color: #823980;
+  border-radius: 4px;
+  margin-top: 30px;
+}
+.wrapper {
+  width: 100%;
+  margin: 24px auto;
+}
+
+
+p.author {
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 24px 0 18px;
+}
+strong {
+  color: rgb(68, 68, 68);
+}

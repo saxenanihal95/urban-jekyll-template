@@ -1,8 +1,8 @@
 ---
-name: Edition Template
-subtitle: Product documentation template for Jekyll
-external_url: https://github.com/CloudCannon/edition-jekyll-template
-image_path: /images/clients/edition.png
+title: How to Build a Blogging Website for Free (Step-by-Step Walkthrough)
+subtitle: This guide will walk you through with building a blog for FREE in 2019
+external_url: https://github.com/CloudCannon/cause-jekyll-template
+image_path: /images/insights/cause.jpg
 ---
 
 Product documentation template for Jekyll. Browse through a [live demo](https://long-pig.cloudvent.net/).
@@ -15,15 +15,15 @@ Learn Jekyll with step-by-step tutorials and videos at [Jekyll Tips](http://jeky
 
 ## Features
 
-* Two column layout
-* Full text search
-* Pre-styled components
-* Auto-generated navigation based on category
-* Optimised for editing in [CloudCannon](http://cloudcannon.com/)
-* Change log
-* RSS/Atom feed
-* SEO tags
-* Google Analytics
+- Two column layout
+- Full text search
+- Pre-styled components
+- Auto-generated navigation based on category
+- Optimised for editing in [CloudCannon](http://cloudcannon.com/)
+- Change log
+- RSS/Atom feed
+- SEO tags
+- Google Analytics
 
 ## Setup
 
@@ -36,15 +36,15 @@ Edition was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should 
 
 Install the dependencies with [Bundler](http://bundler.io/):
 
-~~~bash
+```bash
 $ bundle install
-~~~
+```
 
 Run `jekyll` commands through Bundler to ensure you're using the right versions:
 
-~~~bash
+```bash
 $ bundle exec jekyll serve
-~~~
+```
 
 ## Editing
 
@@ -52,19 +52,19 @@ Edition is already optimised for adding, updating and removing documentation pag
 
 ### Documentation pages
 
-* Add, update or remove a documentation page in the *Documentation* collection.
-* Change the category of a documentation page to move it to another section in the navigation.
-* Documentation pages are organised in the navigation by category, with URLs based on the path inside the `_docs` folder.
+- Add, update or remove a documentation page in the _Documentation_ collection.
+- Change the category of a documentation page to move it to another section in the navigation.
+- Documentation pages are organised in the navigation by category, with URLs based on the path inside the `_docs` folder.
 
 ### Change log
 
-* Add, update or remove change log entries from your posts.
-* Tag entries as minor or major in the front matter.
+- Add, update or remove change log entries from your posts.
+- Tag entries as minor or major in the front matter.
 
 ### Search
 
-* Add `excluded_in_search: true` to any documentation page's front matter to exclude that page in the search results.
+- Add `excluded_in_search: true` to any documentation page's front matter to exclude that page in the search results.
 
 ### Navigation
 
-* Change `site.show_full_navigation` to control all or only the current navigation group being open.
+- Change `site.show_full_navigation` to control all or only the current navigation group being open.
